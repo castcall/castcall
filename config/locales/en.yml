@@ -31,3 +31,60 @@
 
 en:
   hello: "Hello world"
+  about:
+    title: who are we
+    description: who are we description
+  who-section:
+    title: who do we help?
+    who:
+      first:
+        title: on the scene
+        description: actors, talented people, art directors, locations, etc
+      second:
+        title: behind the scene
+        description: producers, directors, crews, f&b providers, etc
+      third:
+        title: content creator
+        description: actors, talented people, art directors, locations, etc
+  how-section:
+    title: how we do it?
+    how:
+      first:
+        title: creating on demand features
+        description: actors, talented people, art directors, locations, etc
+      second:
+        title: secured payment system
+        description: producers, directors, crews, f&b providers, etc
+      third:
+        title: management api
+        description: actors, talented people, art directors, locations, etc
+  progress-section:
+    title: how we do it?
+    progress:
+      first:
+        logo: phase 1
+        title: creating on demand features
+        description: actors, talented people, art directors, locations, etc
+      second:
+        logo: phase 2
+        title: secured payment system
+        description: producers, directors, crews, f&b providers, etc
+      third:
+        logo: phase 3
+        title: management api
+        description: actors, talented people, art directors, locations, etc
+  register-section:
+    title: be the first!
+    register:
+      title: register for free!
+      link: click here to register
+      description: we have a suprise for you
+  help-section:
+    title: help us!
+    help:
+      first:
+        title: invest
+        description: actors, talented people, art directors, locations, etc
+      second:
+        title: donate
+        description: producers, directors, crews, f&b providers, etc

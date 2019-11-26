@@ -1,0 +1,18 @@
+.home {
+  .section {
+    background-color: #fede59;
+    & > .title {
+      background-color: #1e1e1e;
+      color: #e9cc53;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.3em;
+    }
+
+    .col-sm {
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+}
