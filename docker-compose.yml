@@ -9,7 +9,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      DATABASE_URL: postgres://postgres:@db:5433/castcallasia__development
+      DATABASE_URL: postgres://postgres:@db:5433/castcallasia_development
 
   db:
     container_name: db
