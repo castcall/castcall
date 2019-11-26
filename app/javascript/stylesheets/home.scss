@@ -1,4 +1,30 @@
 .home {
+  .about-section {
+    .img {
+    }
+    .about {
+      padding-top: 100px;
+      padding-bottom: 200px;
+      background-color: #fede59;
+      .title {
+        font-size: 3em;
+        font-weight: bold;
+        background: white;
+        margin-left: 30px;
+        margin-right: -15px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+      }
+      .description {
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding: 10px;
+      }
+    }
+  }
+
   .section {
     background-color: #fede59;
     & > .title {
@@ -6,13 +32,21 @@
       color: #e9cc53;
       text-align: center;
       padding: 20px;
-      font-size: 1.3em;
+      font-size: 2em;
+      text-transform: uppercase;
     }
 
     .col-sm {
       background-color: white;
       margin: 20px;
       padding: 20px;
+      text-align: center;
+
+      .title {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
     }
   }
 }

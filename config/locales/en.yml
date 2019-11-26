@@ -59,7 +59,7 @@ en:
         title: management api
         description: actors, talented people, art directors, locations, etc
   progress-section:
-    title: how we do it?
+    title: our progress?
     progress:
       first:
         logo: phase 1
