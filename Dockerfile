@@ -1,6 +1,6 @@
 FROM ruby:2.6-alpine
 
-RUN apk add --no-cache build-base git tzdata bash postgresql-dev nodejs
+RUN apk add --no-cache build-base git tzdata bash postgresql-dev nodejs yarn
 
 RUN mkdir /app
 WORKDIR /app

@@ -2,8 +2,19 @@ version: '3'
 services:
   backend:
     container_name: backend
+    command: ./bin/docker/start
     build: .
     volumes:
       - .:/app
     ports:
       - 3000:3000
+    environment:
+      DATABASE_URL: postgres://postgres:@db:5433/castcallasia__development
+
+  db:
+    container_name: db
+    image: postgres:11
+    command: -p 5433
+    restart: always
+    ports:
+      - 5433:5433
