@@ -33,31 +33,31 @@ en:
   hello: "Hello world"
   about:
     title: who are we
-    description: who are we description
+    description: Castcall Asia is a platform that connect & manage people for the creative industry, We are making the creative industry more accessible for the public which they can connect to the Industry workers ON DEMAND to solve their problems. We are a platform that provide education to public on how the industry works and at the same time we will connect them to the right person. Castcall Asia will also provide security on the transaction done.
   who-section:
     title: who do we help?
     who:
       first:
-        title: on the scene
-        description: actors, talented people, art directors, locations, etc
+        title: talent people
+        description: People who are talented in any thing, our platform help to educate them and showcase their talents at the same time connect them to buyers.
       second:
-        title: behind the scene
-        description: producers, directors, crews, f&b providers, etc
+        title: client
+        description: We help buyer to connect them to the talented/creative people on demand. With thousands of talented people registered to sell on Castcall, we believe we can cater our clients needs.
       third:
         title: content creator
-        description: actors, talented people, art directors, locations, etc
+        description: Castcall Asia will provide education to content creator on the process on creating contents for their marketing purposes and we will connect them to the right person to cater their needs
   how-section:
-    title: how we do it?
+    title: what is great about us?
     how:
       first:
-        title: creating on demand features
-        description: actors, talented people, art directors, locations, etc
+        title: on demand
+        description: Creating on demand features on connecting people in the creative industry to save time, cost and effort.
       second:
-        title: secured payment system
-        description: producers, directors, crews, f&b providers, etc
+        title: security
+        description: We create a win-win situation between buyers and sellers, by securing both end transactions, background check and our rating systems
       third:
-        title: management api
-        description: actors, talented people, art directors, locations, etc
+        title: management
+        description: Our platform will help our users to manage their schedule, ability, and fees. User and set up the profile upon registration and let us do the rest for you.
   progress-section:
     title: our progress?
     progress:
@@ -78,7 +78,8 @@ en:
     register:
       title: register for free!
       link: click here to register
-      description: we have a suprise for you
+      description: We are collecting database for our beta users, click the link provided and bee ready for a surprise for you!
+      cta: CLICK THE PEN ICON ABOVE TO REGISTER
   help-section:
     title: help us!
     help:

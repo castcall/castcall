@@ -9,10 +9,10 @@ services:
     ports:
       - 3000:3000
     environment:
-      DATABASE_URL: postgres://postgres:@db:5433/castcallasia_development
+      DATABASE_URL: postgres://postgres:@ccdb:5433/castcallasia_development
 
-  db:
-    container_name: db
+  ccdb:
+    container_name: ccdb
     image: postgres:11
     command: -p 5433
     restart: always

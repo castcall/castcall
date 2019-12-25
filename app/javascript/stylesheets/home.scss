@@ -1,6 +1,8 @@
 .home {
   .about-section {
-    .img {
+    .image {
+      background-image: url('../assets/side.png');
+      background-size: cover;
     }
     .about {
       padding-top: 100px;
@@ -36,7 +38,7 @@
       text-transform: uppercase;
     }
 
-    .col-sm {
+    .col-sm, .col-4 {
       background-color: white;
       margin: 20px;
       padding: 20px;
