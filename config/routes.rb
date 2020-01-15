@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  constraints (RouteConstraints::AppSubdomain) do
-    root 'app/app#home', as: :app_root
-  end
+  get 'app', to: 'app/app#home'
 
   root 'pages#home'
 end
