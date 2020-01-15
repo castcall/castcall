@@ -28,6 +28,8 @@ module App
     config.hosts << "app.castcall.asia"
     config.hosts << "www.castcall.asia"
     config.hosts << "castcall.asia"
+    config.hosts << "castcallasia.herokuapp.com"
+    config.hosts << "app.castcallasia.herokuapp.com"
 
     config.autoload_paths += %W[#{config.root}/lib
                                 #{config.root}/app/models/concerns]
