@@ -25,6 +25,9 @@ module App
     config.load_defaults 6.0
     config.hosts << "lvh.me"
     config.hosts << "app.lvh.me"
+    config.hosts << "app.castcall.asia"
+    config.hosts << "www.castcall.asia"
+    config.hosts << "castcall.asia"
 
     config.autoload_paths += %W[#{config.root}/lib
                                 #{config.root}/app/models/concerns]
