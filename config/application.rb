@@ -23,6 +23,12 @@ module App
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
+    config.hosts << "lvh.me"
+    config.hosts << "app.lvh.me"
+
+    config.autoload_paths += %W[#{config.root}/lib
+                                #{config.root}/app/models/concerns]
+
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
