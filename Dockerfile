@@ -8,7 +8,11 @@ WORKDIR /app
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
 
+ENV YARN_CACHE_FOLDER /cache/yarn
+
 RUN bundle install
+
+RUN yarn install
 
 COPY . .
 
